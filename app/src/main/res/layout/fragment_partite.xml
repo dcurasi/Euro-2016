@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/bg_euro16"
+    android:id="@+id/frame_partite"
+    tools:context="com.example.dario.euro2016.PartiteFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:id="@+id/select_giornata"
+            android:dropDownWidth="wrap_content"
+            android:popupBackground="#114078"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="@dimen/card_horizontal_margin"
+            android:layout_marginRight="@dimen/card_horizontal_margin"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_partite"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/card_horizontal_margin"
+            android:paddingRight="@dimen/card_horizontal_margin"
+            android:paddingTop="6dp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

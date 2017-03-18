@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Euro 2016</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="last_match">Ultime Partite</string>
+    <string name="info_torneo">Info Torneo</string>
+    <string name="classifiche">Classifiche</string>
+    <string name="partite">Partite</string>
+
+    <!--View Torneo-->
+    <string name="giornata_corrente">Gior. Corrente: </string>
+    <string name="num_giornate">Num. Giornate: </string>
+    <string name="num_squadre">Num. Squadre: </string>
+    <string name="num_partite">Num. Partite: </string>
+    <string name="last_update">Ultimo Aggiornamento: </string>
+
+    <!--View Classifiche-->
+    <string name="title_sq">Squadra</string>
+    <string name="title_g">G</string>
+    <string name="title_gf">Gf</string>
+    <string name="title_gs">Gs</string>
+    <string name="title_dr">Dr</string>
+    <string name="title_pti">Pti</string>
+
+    <!--Menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_partite">Partite</string>
+    <string name="menu_classifiche">Classifiche</string>
+    <string name="menu_info_torneo">Info Torneo</string>
+
+    <string name="title_activity_detail_partite">Partita</string>
+
+    <string name="action_share">Share</string>
+
+</resources>

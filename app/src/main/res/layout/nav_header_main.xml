@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:scaleType="centerCrop"
+    android:background="@drawable/bg_euro16_menu"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/card_horizontal_margin"
+    android:paddingLeft="@dimen/card_horizontal_margin"
+    android:paddingRight="@dimen/card_horizontal_margin"
+    android:paddingTop="@dimen/card_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/card_horizontal_margin"
+        android:src="@drawable/logo_euro_2016_menu" />
+
+</LinearLayout>

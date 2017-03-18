@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/partite"
+            android:icon="@drawable/ic_football_ball"
+            android:title="@string/menu_partite" />
+        <item
+            android:id="@+id/classifiche"
+            android:icon="@drawable/ic_classifiche"
+            android:title="@string/menu_classifiche" />
+        <item
+            android:id="@+id/info_torneo"
+            android:icon="@drawable/ic_info_torneo"
+            android:title="@string/menu_info_torneo" />
+    </group>
+
+</menu>

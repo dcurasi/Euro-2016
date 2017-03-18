@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardBackgroundColor="#00FFFFFF"
+    card_view:cardElevation="3dp"
+    android:id="@+id/row_cardview_partita">
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/data_partita"
+                android:paddingLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="#FFFFFF"
+                android:text="@string/partite"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/giornata"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ora_partita"
+                android:paddingRight="5dp"
+                android:layout_alignParentRight="true"
+                android:textColor="#FFFFFF"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_sq_casa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:paddingTop="3dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="3dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/slug_sq_casa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/risultato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="8dp"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/extra_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/slug_sq_fuori"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/img_sq_fuori"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:paddingTop="3dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="3dp">
+            </ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
